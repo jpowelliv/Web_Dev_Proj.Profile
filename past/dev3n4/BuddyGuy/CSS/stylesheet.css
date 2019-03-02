@@ -1,0 +1,82 @@
+body  {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: greenyellow;
+  
+}
+#header {
+  padding: 0px; margin: 0px;
+  hieght: 75px;
+  width: 100%;
+  background-color: black;
+  color: 	#FF8C00;
+  text-align: right;
+  position: fixed;
+  top: 0px; left: 0px;
+  z-index: 1;
+}
+
+#logo{
+  z-index: 1000;
+  color: lime;
+  font-weighted: bold;
+  height: 90px;
+  width: 90px;
+  display: inline-block;
+  background-color: red;
+  border-radius: 90px;
+  position: fixed;
+  top: 7px;
+  left: 7px;
+}
+
+#logo>p {
+  padding: 20px;
+  tect-align: center;
+  font-sizr: 30px;
+}
+
+#content  {
+  padding-top: 75px;
+  height: 1000px;
+}
+
+.first-row  {
+  width: 30%;
+  height: 100px;
+  background-color: orange;
+  float: left;
+  margin: 10px;
+}
+
+.second-row {
+  width: 30%;
+  height: 100px;
+  background-color: plum;
+  float: left;
+  margin: 10px;
+}
+
+.third-row  {
+  width: 30%;
+  height: 100px;
+  background-color: PaleGoldenRod ;
+  float: left;
+  margin: 10px;
+}
+
+#chat-box{
+  hieght: 60px;
+  width: 50%;
+  background-color: #000;
+  color: 	#FF8C00;
+  position: absolute;
+  bottom 5;
+  right: 0px;
+}
+
+#footer{
+  height: 75px;
+  border-top: dashed 1px #000;
+}

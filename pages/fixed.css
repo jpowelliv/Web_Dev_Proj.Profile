@@ -1,0 +1,24 @@
+body {
+	width: 960%;
+	margin: 0 auto;
+	font-family: inconsolate, monospace;
+}
+#content {
+	overflow: auto;
+	height: 100%;
+}
+#nav, #feature, #footer {
+	background-color: #ff1c1c;
+	padding:10px;
+	margin: 10px;
+}
+.column1, .column2, .column3 {
+	background-color:#f9f9f4;
+	width: 300px;
+	float: left;
+	margin: 10px;
+}
+li {
+	display: inline;
+	padding: 5px;
+}

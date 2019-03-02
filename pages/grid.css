@@ -1,0 +1,17 @@
+*{
+	font-family: Gerogia, Palatino, Helvetica;
+	color: #f3ff1c;
+	text-align:center;
+}
+#nav, #feature, .article, #footer{
+	background-color: #ff1c1c;
+	margin-top: 20px;
+	padding: 10px 0px 5px 0px;
+}
+#feature, .article {
+	height: 100px;
+}
+li {
+	display: inline;
+	padding: 5px;
+}
